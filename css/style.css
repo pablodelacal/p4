@@ -1,0 +1,106 @@
+body {
+    background-color: #0b1120;
+    color: white;
+    font-family: Georgia, serif;
+    margin: 0;
+}
+
+/* Esta web está tematizada en el Atlético de Madrid, por eso usa colores
+rojos y azules en distintas partes de la página. */
+
+header {
+    background-color: #b71c1c;
+    padding: 20px;
+    text-align: center;
+}
+
+/* nav vale para las etiquetas de prinicpal, producto, carrito y contacto. Es el
+estilo de esos bloques */
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 8px 12px;
+    background-color: #1e3a8a;
+    border: 1px solid white;
+}
+
+
+
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+
+section {
+    background-color: #111a2e;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #c62828;
+}
+
+h1, h2 {
+    color: white;
+}
+
+p {
+    line-height: 1.5;
+}
+
+img {
+    width: 300px;
+    max-width: 100%;
+    display: block;
+    margin-top: 10px;
+}
+
+iframe {
+    max-width: 100%;
+    border: 0;
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    color: black;
+    margin-top: 15px;
+}
+
+th {
+    background-color: #d32f2f;
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+form {
+    background-color: white;
+    color: black;
+    padding: 15px;
+}
+
+fieldset {
+    margin-bottom: 15px;
+}
+
+input, select, textarea {
+    margin-top: 5px;
+    padding: 5px;
+}
+
+footer {
+    text-align: center;
+    background-color: #b71c1c;
+    padding: 15px;
+    margin-top: 20px;
+}

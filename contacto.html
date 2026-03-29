@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Tienda online del Atlético de Madrid</h1>
+        <nav>
+            <a href="principal.html">Principal</a>
+            <a href="productos.html">Productos</a>
+            <a href="carrito.html">Carrito</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <p>En esta página se puede realizar un pedido de productos del Atlético de Madrid mediante un formulario.</p>
+        </section>
+
+        <section>
+            <form action="#" method="post">
+
+                <h2>Formulario del pedido</h2>
+
+                <fieldset>
+                    <legend>Datos personales</legend>
+
+                    <p>
+                        <label for="name_id">Nombre:</label><br>
+                        <input type="text" id="name_id" name="nombre">
+                    </p>
+
+                    <p>
+                        <label for="phone_id">Teléfono:</label><br>
+                        <input type="tel" id="phone_id" name="telefono">
+                    </p>
+
+                    <p>
+                        <label for="email_id">Email:</label><br>
+                        <input type="email" id="email_id" name="email" required>
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Producto</legend>
+
+                    <p>
+                        <label for="model_id">Producto:</label><br>
+                        <select id="model_id" name="producto">
+                            <option value="camiseta">Camiseta oficial</option>
+                            <option value="bufanda">Bufanda del Atleti</option>
+                            <option value="sudadera">Sudadera</option>
+                        </select>
+                    </p>
+
+                    <p>Talla:</p>
+                    <ul>
+                        <li>
+                            <input type="radio" id="size-1_id" name="talla" value="S" required>
+                            <label for="size-1_id">S</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="size-2_id" name="talla" value="M">
+                            <label for="size-2_id">M</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="size-3_id" name="talla" value="L">
+                            <label for="size-3_id">L</label>
+                        </li>
+                    </ul>
+
+                    <p>
+                        <label for="amount_id">Cantidad:</label><br>
+                        <input type="number" id="amount_id" name="cantidad" min="1" max="5" required>
+                    </p>
+
+                    <p>Extras:</p>
+                    <ul>
+                        <li>
+                            <input type="checkbox" id="extra-1_id" name="extra1">
+                            <label for="extra-1_id">Envío urgente</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="extra-2_id" name="extra2">
+                            <label for="extra-2_id">Envoltorio regalo</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="extra-3_id" name="extra3">
+                            <label for="extra-3_id">Firma de jugador</label>
+                        </li>
+                    </ul>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Entrega</legend>
+
+                    <p>
+                        <label for="fecha_id">Fecha:</label><br>
+                        <input type="date" id="fecha_id" name="fecha" min="2026-01-01">
+                    </p>
+
+                    <p>
+                        <label for="instructions_id">Instrucciones:</label><br>
+                        <textarea id="instructions_id" name="instrucciones" rows="4" cols="30"></textarea>
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <input type="submit" value="Realizar pedido">
+                    <input type="reset" value="Borrar">
+                </fieldset>
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Práctica 4 - Página web estática</p>
+    </footer>
+
+</body>
+</html>
