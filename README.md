@@ -7,5 +7,5 @@ La web está tematizada en el Atlético de Madrid para hacerla más concreta y p
 La página cuenta con una sección principal y tres páginas adicionales (productos, carrito y contacto), todas ellas interconectadas, incluyendo elementos como tablas, multimedia y un formulario, es decir, 
 lo pedido en el enunicado de la práctica. 
 
-La Github page está también disponible. 
+La Github page está también disponible: https://pablodelacal.github.io/p4/ 
 
